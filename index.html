@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>payment Form | Last page</title>
+    
+</head>
+<body>
+
+
+    <div class="container">
+
+<form action="">
+    <h1>payment form</h1>
+    <hr>
+
+<fieldset>
+    <legend>Contact information</legend>
+
+    <label >First name: <strong>*</strong> </label> 
+    <input id="fname" type="text"  placeholder="Enter Your First Name" required>
+
+   <label for="">Last name: <strong>*</strong></label> 
+    <input id="lname" type="text"  placeholder="Enter Your Last Name" required>
+</fieldset>
+
+ 
+  <fieldset>
+            <legend>Gender</legend>
+
+       <label for="">Male:<strong>*</strong></label> 
+        <input type="radio" name="gender" id="male" required>
+
+        <label for="">FeMale:<strong>*</strong></label>
+          <input type="radio" name="gender" id="female" required>
+ </fieldset>   
+
+
+    <fieldset>
+        <legend>Address</legend>
+
+   <label for="">Address:</label> 
+    <textarea name="address" id="address" cols="50" rows="10" placeholder="Enter Your Native add. "></textarea>
+</fieldset>
+
+
+    <fieldset>
+        <legend>Email Address</legend>
+
+     <label for="">Gmail:<strong>*</strong></label> 
+     <input type="email" name="Gmail" id="email" required>
+</fieldset>
+
+
+
+    <fieldset>
+        <legend>Mobile No.</legend>
+
+      <label for=""> Mobile:<strong>*</strong> </label>
+       <input type="number" name="Mobie " id="mobile" placeholder="+91" required>
+</fieldset>
+
+
+    <fieldset>
+        <legend>Pin code.</legend>
+
+        <label for="">area pin:<strong>*</strong></label> 
+        <input type="number" name="area pin " id="area-pin" required>
+</fieldset>
+
+
+<h3>Bank Detail</h3>
+
+    <fieldset>
+
+    <label for="">payment type:<strong>*</strong></label> 
+    <select name="payment type" id="payment-type">
+        <option value="">--select your cards--</option>
+        <option value="dbit card">dbit card</option>
+        <option value="credit car">credit card</option>
+        <option value="UPI">UPI</option>
+    </select>
+
+
+      
+       <label for="">Payment Option:<strong>*</strong></label> 
+        <select name="Payment Option" id="Payment-Option">
+            <option value="">--select your cards--</option>
+            <option value="visa card">visa card</option>
+            <option value="master card">master card</option>
+            <option value="neteller">neteller</option>
+        </select>
+
+
+
+   <label for="">Card No.:<strong>*</strong></label>
+    <input type="number"id="card-No" name="card No." required>
+
+
+
+   <label for="">CVV:<strong>*</strong></label> 
+    <input type="password" id="cvv" name="CVV" required>
+
+
+   <label for="">Card Expiry Date:<strong>*</strong> </label>
+    <input type="date" name=" Card Expiry Date" id="cardexpiarydate" required><br><br>
+
+    <!-- <input type="submit" value="Pay Now"> -->
+    <input type="button" value="Pay Now" id="button">
+
+</fieldset>
+
+</div>
+<div id="massage"></div>
+</form>
+    
+<!-- <a href="home.html" target="_blank" >home</a>&nbsp;&nbsp;&nbsp;
+<a href="page1.html" target="_blank" >Page 1</a>&nbsp;&nbsp;&nbsp;
+<a href="page2.html" target="_blank" >page 1</a>&nbsp;&nbsp;&nbsp; -->
+
+
+    
+<script src="index.js"></script>
+</body>
+</html>
